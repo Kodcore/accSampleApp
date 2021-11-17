@@ -1,0 +1,12 @@
+Feature: validar pagina sampleapp
+  Como
+  Eu quero
+  Para que
+  Scenario:
+    Given
+    When
+    Then
+
+  Dado
+  Quando
+  Entao
