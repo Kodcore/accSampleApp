@@ -1,27 +1,27 @@
 #Language:pt-br
-Feature: Como usuário eu quero ... para....
+Feature: as a user I want ... to....
 
     Scenario: EnterVehicleData
-      Given aba EnterVehicleData
-      When preencher formulario
+      Given tab EnterVehicleData
+      When fill form
       Then EnterInsurantDataPage open
 
       Scenario: EnterInsurantData
-        Given aba EnterInsurantData
-        When preencher formulario
+        Given tab EnterInsurantData
+        When fill form
         Then EnterProductDataPage open
 
   Scenario: EnterProductData
-    Given aba EnterProductData
-    When preencher formulario
+    Given tab EnterProductData
+    When fill form
     Then SelectPriceOptionPage open
 
     Scenario: SelectPriceOption
-      Given aba SelectPriceOption
-      When preencher formulario
+      Given tab SelectPriceOption
+      When fill form
       Then AbaSendQuote open
 
       Scenario: SendQuote
-        Given aba SendQuote
-        When preencher formulario
+        Given tab SendQuote
+        When fill form
         Then show message "Sending e-mail sucess!"
